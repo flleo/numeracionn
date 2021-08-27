@@ -1,0 +1,105 @@
+body {
+    background-color: white
+}
+
+.modal-header,
+.modal-body {
+    padding: 10px !important;
+    padding-top: 5px !important;
+}
+
+.form-select {
+    min-width: 150px;
+}
+
+[name^=sel-ori],
+[name^=sel-rea] {
+    min-width: 200px;
+}
+
+#page-selected {
+    background-color: #dee2e6 !important;
+}
+
+.page-link {
+    background-color: #fff !important;
+}
+
+/**********table************/
+
+table {
+    text-align: center;
+}
+
+
+label,
+h3,
+h4,
+th,
+#th-fecha {
+    color: #195baf !important;
+}
+
+.btn {
+    height: 35px;
+}
+
+img {
+    height: 24px;
+}
+
+td:hover>small {
+    display: block;
+}
+
+small {
+    display: none;
+}
+
+div.w-25:nth-child(3) {
+    margin-right: 80px;
+}
+
+[class$=filter] {
+    width: 145px;
+}
+
+input,
+select {
+    height: 35px;
+}
+
+/*id descripcion editar-con*/
+[class$=ip-admin-ck] {
+    margin-top: 2px !important;    
+    margin-bottom: 2px !important;   
+}
+
+[class$=ip-admin-ck]>input {
+    margin-top: 1px !important;  
+    margin-bottom: 4px !important;   
+}
+
+[class$=ip-admin] {
+    margin-top: -2px !important;    
+}
+
+#ip-admin,
+#descripcion-admin {
+    margin-top: -5px;
+    ;
+}
+
+/**/
+.page-link {
+    padding: .3rem .75rem;
+}
+
+td>[type=checkbox],
+th>[type=checkbox] {
+    margin-top: -3px !important;
+}
+
+tr {
+    height: 65px;
+}
